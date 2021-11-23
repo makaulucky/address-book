@@ -9,11 +9,12 @@ ob_start();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--custom css-->
+    <link rel="stylesheet" href="css/style.css">
     <!--add bootstrap css here -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
     <title>Address Book</title>
 </head>
 
@@ -29,7 +30,10 @@ ob_start();
                             <h1>Add Address</h1> <br>
                             <!--back button-->
                             <a href="index.php" class="btn btn-primary">View Addresses</a>
+
+                            <a href="Trial.php" class="btn btn-primary">Trial</a>
                         </div>
+                        
                             <hr>
                              
                         </div>
@@ -77,39 +81,39 @@ ob_start();
                             <form action="add.php" method="post">
                                 <div class="form-group">
                                     <label for="Fname">First Name</label>
-                                    <input type="text" name="Fname" class="form-control" id="Fname" placeholder="Enter First Name">
+                                    <input required autocomplete="off" type="text" name="Fname" class="form-control" id="Fname" placeholder="Enter First Name">
                                 </div>
                                 <div class="form-group">
                                     <label for="Lname">Last Name</label>
-                                    <input type="text" name="Lname" class="form-control" id="Lname" placeholder="Enter Last Name">
+                                    <input required autocomplete="off" type="text" name="Lname" class="form-control" id="Lname" placeholder="Enter Last Name">
                                 </div>
                                 <div class="form-group">
                                     <label for="Email_">Email</label>
-                                    <input type="email" name="Email_" class="form-control" id="Email_" placeholder="Enter Email">
+                                    <input required autocomplete="off" type="email" name="Email_" class="form-control" id="Email_" placeholder="Enter Email">
                                 </div>
                                 <div class="form-group">
                                     <label for="Phone">Phone</label>
-                                    <input type="tel" name="Phone_" class="form-control" id="Phone_" placeholder="Enter Phone">
+                                    <input required autocomplete="off" type="tel" name="Phone_" class="form-control" id="Phone_" placeholder="Enter Phone">
                                 </div>
                                 <div class="form-group">
                                     <label for="Address">Address</label>
-                                    <input type="text" name="Address_" class="form-control" id="Address_" placeholder="Enter Address">
+                                    <input required autocomplete="off" type="text" name="Address_" class="form-control" id="Address_" placeholder="Enter Address">
                                 </div>
                                 <div class="form-group">
                                     <label for="Country">Country</label>
-                                    <input type="text" name="Country_" class="form-control" id="Country_" placeholder="Enter City">
+                                    <input required autocomplete="off" type="text" name="Country_" class="form-control" id="Country_" placeholder="Enter City">
                                 </div>
                                 <div class="form-group">
                                     <label for="City">City</label>
-                                    <input type="text" name="City_" class="form-control" id="City_" placeholder="Enter City">
+                                    <input required autocomplete="off" type="text" name="City_" class="form-control" id="City_" placeholder="Enter City">
                                 </div>
                                 <div class="form-group">
                                     <label for="State">State</label>
-                                    <input type="text" name="State_" class="form-control" id="State_" placeholder="Enter State">
+                                    <input required autocomplete="off" type="text" name="State_" class="form-control" id="State_" placeholder="Enter State">
                                 </div>
                                 <div class="form-group">
                                     <label for="Zip">Zip</label>
-                                    <input type="text" name="Zip_" class="form-control" id="Zip_" placeholder="Enter Zip">
+                                    <input required autocomplete="off" type="text" name="Zip_" class="form-control" id="Zip_" placeholder="Enter Zip">
                                 </div>
                                 <button type="submit" name="submit" class="btn btn-default">Submit</button>
                             </form>

@@ -13,7 +13,6 @@ ob_start();
     <meta name="description" content="">
     <meta name="author" content="">
     <!--custom css -->
-    <link rel="stylesheet" href="css/style.css">
     <!--add bootstrap css here -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">

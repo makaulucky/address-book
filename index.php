@@ -63,7 +63,7 @@ $Username = $_SESSION['Username'];
                         while ($row = $result->fetch_assoc()) {
                             echo "
                             <tr>
-                            <td>" . $row["Id"] . "</td>Address List<td>" . $row["Fname"] . "</td><td>" . $row["Lname"] . "</td><td>" . $row["Email_"] . "</td><td>" . $row["Phone_"] . "</td><td>" . $row["Address_"] . "</td><td>" . $row["City_"] . "</td><td>" . $row["State_"] . "</td><td>" . $row["Zip_"] . "</td><td>" . $row["Country_"] . "</td><td><a href='edit.php?Id=" . $row["Id"] . " '>Edit</a> | <a href='delete.php?Id=" . $row["Id"] . "'>Delete</a></td>
+                            <td>" . $row["Id"] . "</td><td>" . $row["Fname"] . "</td><td>" . $row["Lname"] . "</td><td>" . $row["Email_"] . "</td><td>" . $row["Phone_"] . "</td><td>" . $row["Address_"] . "</td><td>" . $row["City_"] . "</td><td>" . $row["State_"] . "</td><td>" . $row["Zip_"] . "</td><td>" . $row["Country_"] . "</td><td><a href='edit.php?Id=" . $row["Id"] . " '>Edit</a> | <a href='delete.php?Id=" . $row["Id"] . "'>Delete</a></td>
                             </tr>";
                         }
                         echo "</thead>";
