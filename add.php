@@ -30,8 +30,6 @@ ob_start();
                             <h1>Add Address</h1> <br>
                             <!--back button-->
                             <a href="index.php" class="btn btn-primary">View Addresses</a>
-
-                            <a href="Trial.php" class="btn btn-primary">Trial</a>
                         </div>
                         
                             <hr>
